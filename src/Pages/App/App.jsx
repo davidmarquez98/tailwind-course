@@ -1,11 +1,12 @@
 import './App.css'
+import AppRoutes from './../../Routes/routes.jsx';
 
 function App() {
   return (
-      <div className='bg-red-100'>
-        Hola mundo
-      </div>
+    <>
+      <AppRoutes/>
+    </>
   )
 }
 
-export default App
+export default App;
